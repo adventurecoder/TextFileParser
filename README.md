@@ -34,9 +34,11 @@ Decision is made with assumption that 8 minutes and 2 seconds processing time fo
 
 * Strip off HTML tag? I tried using Regex but the performance suffers terribly...
 
----------------------
--- TO RUN THE TEST --
----------------------
+* How about splitting the large file into smaller text file? Make the reading of different file section happen in parallel.
+
+------------------------
+-- TO RUN THE PROJECT --
+------------------------
 
 1. Ensure that TextFileParserConsole is the start up project. 
 2. Run the project (F5).
